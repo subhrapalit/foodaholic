@@ -4,30 +4,32 @@ body{
 }
 h1{
     font-size: 40px;
+   
 }
 h2{
     font-size: 30px;
+   
 }
 .flexible-container{
     display: flex;
     margin-bottom: 200px;
+    box-sizing: border-box;
     
 }
 .orange-color{
-    color: rgb(23, 228, 218);
+    color: rgb(240, 82, 9);
 }
+
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 60%;
+    padding-left: 5%;    
    
 }
-.half-width-2{
-    width: 50%;
-    padding-left: 5%;
-    padding-inline-end: 10%;
-    margin-inline-start: 10%;
-   
+.half-width a{
+
+    line-height: 200px;
 }
+
 .half-width img{
     width: 60%;
     
@@ -47,4 +49,29 @@ h2{
     background-repeat: no-repeat;
    
 
+}
+#food-area-intro{
+    text-align: center;
+    color: rgb(199, 9, 72);
+}
+   
+
+.recipie-item{
+    width: 30%;
+    margin: 5% 5%;
+    padding: 15px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgb(95, 31, 79);
+}
+.recipie img{
+    width: 100%;
+}
+
+footer{
+    background-image: linear-gradient(rgb(2, 2, 48), black);
+    background-size: cover;
+    background-position: bottom;
+    color: cyan;
+    text-align: center;
+    
 }
